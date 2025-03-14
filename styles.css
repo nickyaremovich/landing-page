@@ -1,3 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding: 15px;
+    background-color: #1f2937;
+}
 nav {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a {
+    color: whitesmoke;
+}
+a:hover {
+    color: yellow;
+}
+.nav-left a {
+    margin-right: 15px;
+}
+.nav-right a {
+    margin-left: 15px;
+    align-content: flex-end;
 }
